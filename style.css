@@ -138,10 +138,7 @@ a:hover {
     color: #7F7F7F;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 
 .dark::before {
     background-color: rgba(0, 0, 0, .5);
@@ -833,16 +830,31 @@ label {
 }
 
 .tc-white {
-    color: #fdbfa1!important;
+    color: #fff!important;
+}
+
+.tc-black {
+    color: #333!important;
+}
+
+.tc-size {
+    font-size: 1.5em;
 }
 
 .contrast {
     color: #333!important;
 }
 
+.tangerine-background {
+    background-color: #f3976c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #000!important;
+    background: #333;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1088,7 +1100,17 @@ label {
         width: 180px;
         height: 320px;
     }
+    .bg-banniere {
+        background-image: none;
+        background-color: #f3976c;
+    }
+    
+    .bg-presentation {
+        background-image: none;
+        background-color: #f3976c;
+    }
 }
+
 
 @media (max-width: 400px) {
     .bloc {

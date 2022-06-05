@@ -560,12 +560,6 @@ button {
     background-color: rgba(0, 0, 0, .05);
 }
 
-select {
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid;
-}
-
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -844,6 +838,10 @@ label {
 
 .tc-white {
     color: #fdbfa1!important;
+}
+
+.contrast {
+    color: #333!important;
 }
 
 .btn-atomic-tangerine {
